@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    line-height:normal !important;
+}
 
 .font {
     font-family: "Playwrite AU QLD", cursive;
@@ -454,6 +457,7 @@ footer .right p {
 
     footer h3 {
         font-size: 38px;
+        margin-bottom: .6rem !important;
     }
 }
 
@@ -676,11 +680,10 @@ footer .right p {
     color: #fff;
     padding: 100px 80px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 .footer .links a{
-    color: #808080;
+    color: #fff;
     font-size: 10px;
     transition: .5s;
 }
@@ -692,9 +695,6 @@ footer .right p {
     color: #fff;
     font-size: 25px;
     transition: .5s;
-}
-.social li a :hover{
-    color: rgb(51, 216, 249 ,0.863);
 }
 .center{
     padding-top: 15px;
@@ -708,4 +708,18 @@ footer .right p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.icon-footer{
+    display: flex;
+}
+.icon-footer span{
+    padding-top: 4px;
+    padding-left: 15px;
+}
+.text-footer{
+    padding-right: 50px !important;
+}
+.text-footer h3{
+    margin: 0 !important;
 }
