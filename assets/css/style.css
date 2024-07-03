@@ -368,42 +368,42 @@ h2.separator {
     margin-top: 8px;
 }
 
-footer {
+/* footer {
     background-color: #000;
     color: #fff;
     padding: 100px 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 footer h3 {
     font-size: 48px;
 }
 
-footer .right {
+/* footer .right {
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 26px;
-}
+} */
 
-footer .right .links {
+/* footer .right .links {
     display: flex;
     gap: 30px;
-}
+} */
 
-footer .right .links a {
+/* footer .right .links a {
     color: #989898;
     transition: color 0.3s ease;
 }
 
 footer .right .links a:hover {
     color: #fff;
-}
+} */
 
-footer .right .social {
+/* footer .right .social {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -422,7 +422,7 @@ footer .right .social i:hover {
 footer .right p {
     font-size: 13px;
     color: #777;
-}
+} */
 
 @media screen and (max-width: 1400px) {
 
@@ -663,4 +663,49 @@ footer .right p {
 .extra-info p{
     padding-top: 10px;
     
+}
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .links a{
+    color: #808080;
+    font-size: 10px;
+    transition: .5s;
+}
+.footer .links a:hover{
+    color: #62b4f4;
+    font-size: 15px;
+}
+.social li a{
+    color: #fff;
+    font-size: 25px;
+    transition: .5s;
+}
+.social li a :hover{
+    color: #62b4f4;
+}
+.center{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #808080;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
