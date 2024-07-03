@@ -12,10 +12,6 @@
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
     <!-- Title -->
     <title>Sky perfumes</title>
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap" rel="stylesheet">
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,14 +20,15 @@
 
 <body>
     <!-- start nav -->
-    <nav class="navbar sticy-top font">
+    <nav class="navbar position-fixed f-patrick fs-4 px-5">
         <a href="#" class="logo">Sky perfumes</a>
         <div class="links">
             <a onclick="goToParagraph('paragraph1')" class="nav_a">Home</a>
             <a onclick="goToParagraph('paragraph2')" class="nav_a">About Us</a>
-            <a onclick="goToParagraph('paragraph3')" class="nav_a">Blog</a>
-            <a onclick="goToParagraph('paragraph4')" class="nav_a"></a>
-            <a onclick="goToParagraph('paragraph5')" class="nav_a">Footer</a>
+            <a onclick="goToParagraph('paragraph3')" class="nav_a">Product</a>
+            <a onclick="goToParagraph('paragraph4')" class="nav_a">Services</a>
+            <a onclick="goToParagraph('paragraph5')" class="nav_a">Sellers</a>
+            <a onclick="goToParagraph('paragraph6')" class="nav_a">Follow Us</a>
         </div>
         <div class="login">
             <button class="signup">Get Started</button>
@@ -48,8 +45,8 @@
                 We proudly present an exceptional collection of exclusive fragrances, curated to accompany your moments
                 with distinctive and lasting scents.
             </p>
-            <a href="#" class="icon-header button">
-                <i class='bx bx-basket icon icon-m'></i>
+            <a href="#" class="icon-header button-header">
+                <i class='bx bx-basket icon'></i>
                 <span class="text font f-patrick">Buy Now</span>
             </a>
         </div>
@@ -67,60 +64,57 @@
     <!-- end header -->
 
     <!--start about us -->
-    <section class="my-5">
-        <div class="mx-5">
-    <!-- start Sell Your NFTs  -->
     <section id="paragraph2" class="pt-5">
-        <h2 class="separator">
-            Sell Your NFTs
+        <h2 class="separator f-patrick">
+            ABOUT US
         </h2>
-        <div class="sell-nft">
-            <div class="item">
-                <div class="header">
-                    <i class='bx bx-wallet-alt'></i>
-                    <h5>Connect Wallet</h5>
+        <div class="row about-us fs-5 pt-3">
+            <div class="col-12 col-sm-10 col-md-6 col-lg-6">
+                <div>
+                    <p class="f-patrick">
+                        Our store, inspired by the beauty of nature and the art of perfumery, has provided you with
+                        the best and highest quality perfumes. From classic fragrances to modern scents, everyone is
+                        waiting for you here.
+                    </p>
+                    <ul class="nav flex-column ">
+                        <li>
+                            <p class="f-patrick"><i class="bi bi-check2-all text-danger fw-bold  fs-5"></i>
+                                Men's perfumes: for men who are looking for a different and attractive scent.</p>
+                        </li>
+                        <li>
+                            <p class=" f-patrick"><i class="bi bi-check2-all text-danger fw-bold  fs-5"></i>
+                                Women's perfumes: with delicate and pleasant scents for stylish and special women.
+                            </p>
+                        </li>
+                        <li>
+                            <p class=" f-patrick"><i class="bi bi-check2-all text-danger fw-bold  fs-5"></i>
+                                Unisex fragrances: suitable for everyone, with fragrances that break down gender
+                                boundaries.</p>
+                        </li>
+                    </ul>
                 </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste modi ab sunt dolores ex dolor,
-                    suscipit
-                    fuga sed earum.</p>
             </div>
-            <div class="item">
-                <div class="header">
-                    <i class='bx bx-cart-alt'></i>
-                    <h5>NFT Marketplace</h5>
+            <div class="col-12 col-sm-10 col-md-6 col-lg-6">
+                <div>
+                    <p class="f-patrick mb-5">Night Dream is a unique perfume that takes you to a world of good
+                        feelings and memories with a warm and sweet scent. The initial notes with a combination of
+                        bitter orange and bergamot give you freshness and energy. Then, with the middle notes of
+                        vanilla and rose, the sense of tenderness and beauty reaches its peak. Finally, the final
+                        notes of musk and amber add warmth and longevity to the fragrance.</p>
+                    <a href="" class="my-btn mt-5 f-patrick text-white">Learn More</a>
                 </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste modi ab sunt dolores ex dolor,
-                    suscipit
-                    fuga sed earum.</p>
-            </div>
-            <div class="item">
-                <div class="header">
-                    <i class='bx bx-grid-alt'></i>
-                    <h5>Launch DApps</h5>
-                </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste modi ab sunt dolores ex dolor,
-                    suscipit
-                    fuga sed earum.</p>
             </div>
         </div>
     </section>
-    <!-- end Sell Your NFTs  -->
+    <!--start about us -->
 
     <!-- start card -->
     <section id="paragraph3" class="pt-5">
         <h2 class="separator f-patrick">
-            Super Hot NFTs
+            Product
         </h2>
 
         <div class="nft-shop f-patrick">
-            <div class="category f-patrick">
-                <a href="#">AsmrGraph</a>
-                <a href="#">Abstract</a>
-                <a href="#">Monkey</a>
-                <a href="#">Cars</a>
-                <a href="#">Trending</a>
-            </div>
-
             <div class="nft-list f-patrick">
                 <div class="item">
                     <img src="assets/img/item-1.png">
@@ -267,7 +261,8 @@
                 <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
                     aria-controls="collapseExample">View More <svg xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform:none;">
-                        <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                        <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z">
+                        </path>
                     </svg></a>
             </div>
         </div>
@@ -275,54 +270,58 @@
     <!-- end card -->
 
     <!-- start Sell Your NFTs  -->
-    <section id="paragraph2" class="pt-5 f-patrick ">
+    <section id="paragraph4" class="pt-5 f-patrick ">
         <h2 class="separator f-patrick">
-            Sell Your perfume
+            Services
         </h2>
-
         <div class="sell-nft">
             <div class="item" style="width: 50%;">
                 <div class="header">
                     <i class='bx bx-wallet-alt'></i>
                     <h5 class="fw-bold"> We will gladly buy them from you!</h5>
                 </div>
-                <p >At our store, we believe that everyone can play a role in protecting the environment and reducing waste. For this reason, we have launched a new program where you can sell us your empty perfume bottles and at the same time, enjoy special benefits.</p>
+                <p>At our store, we believe that everyone can play a role in protecting the
+                    environment and
+                    reducing waste. For this reason, we have launched a new program where you can
+                    sell us your
+                    empty perfume bottles and at the same time, enjoy special benefits.</p>
             </div>
-            <div class="item"  style="width: 50%;">
+            <div class="item" style="width: 50%;">
                 <div class="header">
                     <i class='bx bx-cart-alt'></i>
                     <h5 class="fw-bold">A pleasant purchase with free shipping to all places!</h5>
                 </div>
-                <p>At our perfume store, we aim to provide the best shopping experience to our dear customers. For this reason, we send all your orders for free and without any additional costs throughout the country. From now on, you can easily choose your favorite perfume and we will deliver it carefully and quickly to your door.</p>
+                <p>At our perfume store, we aim to provide the best shopping experience to our dear
+                    customers.
+                    For this reason, we send all your orders for free and without any additional
+                    costs
+                    throughout the country. From now on, you can easily choose your favorite perfume
+                    and we will
+                    deliver it carefully and quickly to your door.</p>
             </div>
             <div class="item" style="width: 50%;">
                 <div class="header">
                     <i class='bx bx-grid-alt'></i>
-                    <h5 class="fw-bold">Get points and enjoy special benefits with every purchase!</h5>
+                    <h5 class="fw-bold">Get points and enjoy special benefits with every purchase!
+                    </h5>
                 </div>
-                <p>At our perfume store, appreciating our loyal customers is our priority. For this purpose, we have launched a special scoring program for you. With every purchase, points are added to your account that you can use to get special discounts, gifts and special offers. The more you shop, the more points you'll collect and the more discounts and benefits you'll get.</p>
+                <p>At our perfume store, appreciating our loyal customers is our priority. For this
+                    purpose, we
+                    have launched a special scoring program for you. With every purchase, points are
+                    added to
+                    your account that you can use to get special discounts, gifts and special
+                    offers. The more
+                    you shop, the more points you'll collect and the more discounts and benefits
+                    you'll get.</p>
             </div>
         </div>
     </section>
     <!-- end Sell Your NFTs  -->
 
     <!-- start sellers -->
-    <section id="paragraph4" class="pt-5">
-        <h2 class="separator">Best Sellers</h2>
-        <div class="sellers">
-            <div>
-                <div class="item item-1">
-                    <img src="assets/img/profile-1.jpg">
-                    <div class="info">
-                        <h4>bety M</h4>
-                        <p>15.2K</p>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <p>Men's perfume specialist</p>
-    <section id="paragraph4" class="pt-5 f-patrick">
+    <section id="paragraph5" class="pt-5 f-patrick">
         <h2 class="separator">
-            Best Sellers
+            Sellers
         </h2>
         <div class="sellers">
             <div class="item item-1 position-relative">
@@ -335,16 +334,6 @@
                     Iste modi ab sunt dolores ex dolor, suscipit fuga sed earum.
                 </div>
             </div>
-            <div>
-                <div class="item item-2">
-                    <img src="assets/img/profile-2.jpg">
-                    <div class="info">
-                        <h4>helen S</h4>
-                        <p>12.7K</p>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <p>Women's perfume specialist</p>
             <div class="item item-2 position-relative">
                 <img src="assets/img/profile-2.jpg">
                 <div class="info">
@@ -355,16 +344,6 @@
                     Iste modi ab sunt dolores ex dolor, suscipit fuga sed earum.
                 </div>
             </div>
-            <div>
-                <div class="item item-3">
-                    <img src="assets/img/profile-3.png">
-                    <div class="info">
-                        <h4>jack T</h4>
-                        <p>7.9K</p>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <p>Specialist in unisex perfumes</p>
             <div class="item item-3 position-relative">
                 <img src="assets/img/profile-3.png">
                 <div class="info">
@@ -375,16 +354,6 @@
                     Iste modi ab sunt dolores ex dolor, suscipit fuga sed earum.
                 </div>
             </div>
-            <div>
-                <div class="item item-4">
-                    <img src="assets/img/profile-4.png">
-                    <div class="info">
-                        <h4>tom W</h4>
-                        <p>4.2K</p>
-                    </div>
-                </div>
-                <div class="extra-info">
-                    <p>Perfume sales specialist</p>
             <div class="item item-4 position-relative">
                 <img src="assets/img/profile-4.png">
                 <div class="info">
@@ -396,12 +365,11 @@
                 </div>
             </div>
         </div>
-
     </section>
     <!-- start sellers -->
 
     <!-- start footer -->
-    <footer class="row font footer" id="paragraph5">
+    <footer class="row_footer font footer" id="paragraph6">
         <div class="col-sm">
             <a href="#" class="footer-logo">Colorlib</a>
             <h3 class="copyright">
@@ -428,24 +396,10 @@
         </div>
         <div class="center">
             <p>Copyright © 2024 AsmrProg, All Rights Reserved.</p>
-    <footer id="paragraph5" class="font">
-        <h3>Create, Explore & Collect Abstract NFTs</h3>
-        <div class="right">
-            <div class="links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Cooperation</a>
-                <a href="#">Sponsorship</a>
-                <a href="#">Contact Us</a>
-            </div>
-            <div class="social">
-                <i class='bx bxl-instagram'></i>
-                <i class='bx bxl-facebook-square'></i>
-                <i class='bx bxl-github'></i>
-            </div>
-            <p>Copyright © 2024 Sky perfumes, All Rights Reserved.</p>
         </div>
     </footer>
     <!-- end footer -->
+
     <!-- JS -->
     <script src="assets/js/app.js"></script>
     <!-- Bootstrap JS -->
