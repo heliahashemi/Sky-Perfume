@@ -685,7 +685,7 @@ footer .right p {
     transition: .5s;
 }
 .footer .links a:hover{
-    color: #62b4f4;
+    color: rgb(51, 216, 249 ,0.863);
     font-size: 15px;
 }
 .social li a{
@@ -694,7 +694,7 @@ footer .right p {
     transition: .5s;
 }
 .social li a :hover{
-    color: #62b4f4;
+    color: rgb(51, 216, 249 ,0.863);
 }
 .center{
     padding-top: 15px;
