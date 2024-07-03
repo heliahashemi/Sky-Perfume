@@ -646,7 +646,7 @@ footer .right p {
     backdrop-filter: blur(30px);
     box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
     border: 2px solid rgba(255, 255, 255, 0.18);
-    z-index: 10000;
+    z-index: 100;
 }
 
 .info {
@@ -712,14 +712,23 @@ footer .right p {
 
 .icon-footer{
     display: flex;
-}
-.icon-footer span{
-    padding-top: 4px;
-    padding-left: 15px;
+    transition-duration: 0.3s;
 }
 .text-footer{
     padding-right: 50px !important;
 }
 .text-footer h3{
     margin: 0 !important;
+}
+.ins :hover{
+    color: rgb(242, 76, 76);
+}
+.fac :hover{
+    color: rgb(96, 169, 237);
+}
+.git :hover{
+    color: rgb(215, 76, 246);
+}
+.lin :hover{
+    color: rgb(78, 113, 253);
 }
